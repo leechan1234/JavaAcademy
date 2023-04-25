@@ -14,24 +14,24 @@ class Circle2{
 	void setRadius(int r) {
 		radius = r;
 	
-	}
-	double getArea() {
-		return radius * radius * tjis.
-	}
+//	}
+//	double getArea() {
+//		return radius * radius * 
+//	}
 	
 
 }
 
-public class Test87 {
-
-	public static void main(String[] args) {
-		
-//			Circle2 c = new Circle2(); 기본 생성자로 생성 불가
-		Circle2 c = new Circle2(5);
-		Circle2 c1 = new Circle2(5);
-		System.out.println(c.getArea());
-		System.out.println(c1.getArea());
-		
-	}
-
-}
+//public class Test87 {
+//
+//	public static void main(String[] args) {
+//		
+////			Circle2 c = new Circle2(); 기본 생성자로 생성 불가
+//		Circle2 c = new Circle2(5);
+//		Circle2 c1 = new Circle2(5);
+//		System.out.println(c.getArea());
+//		System.out.println(c1.getArea());
+//		
+//	}
+//
+//}
