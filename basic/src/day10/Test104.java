@@ -23,17 +23,9 @@ public void show() {
 
 	
 
-
-
-
-
-
-
-
-
 public class Test104 {
   public static void main(String[] args) {
         Tv tv = new Tv("LG", 2023, 50);
-        tv.show(); // LG에서 만든 2023년형 50인치 Tv 출력
+        tv.show(); // LG에서 만든 2023년형 50인치 Tv 출력 //반환값없는 tv
     }
 }

@@ -26,10 +26,16 @@ class Grade{
 		this.eng=eng;
 	}
 	
+	int getAvg() {
+		int avg = (math + sci + eng) /3;
+		return avg;
+	}
+	
 	public void math() {
 		System.out.println(math);
 	}
 	public void sci() {
+		
 		System.out.println(sci);
 	}
 	public void eng() {
@@ -37,9 +43,7 @@ class Grade{
 	}
 	
 
-	public void getAvg() {
-		System.out.println(math+sci+eng/3);
-	}
+
 	
 }
 public class Test105 {
@@ -54,7 +58,7 @@ public class Test105 {
 		 System.out.println("영어 >>");
 		 int eng = sc.nextInt();
 		Grade me = new Grade(math, sci, eng);
-//		System.out.println("평균은 " + me.getAvg());
+		System.out.println("평균은 " + me.getAvg());
 				
 				
 	}

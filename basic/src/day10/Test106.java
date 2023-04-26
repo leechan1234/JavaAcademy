@@ -13,7 +13,23 @@ package day10;
   	     콘솔 예) 2023년 한국국적의 NewJeans가 부른 Hypeboy
  
  */
-
+class Song{
+	String title;
+	String artist;
+	int year;
+	String country;
+	Song(){}
+	Song(String title, String artist, int year, String country){
+//		this.title=title
+//		this.artist=artist
+		
+	}
+	}
+	
+		
+	
+	
+}
 
 
 public class Test106 {
