@@ -1,5 +1,6 @@
 package day10;
 
+import java.util.Scanner;
 
 /*
 하루 할일을 표현하는 클래스 Day는 아래와 같다. (변경X, 그대로 사용) 
@@ -44,14 +45,30 @@ class MonthSchedule {
 			days[i] = new Day();// 각 방안에 Day 객체 만들어 저장 
 		}
 	}
+	void input() {
+		System.out.println("날짜 (1~ " + dayNum);
+	}
 	void run() {
+		Scanner sc = new Scanner(System.in);
 		//전체 프로그램 진행
+		System.out.println("이번달 스케쥴 관리 프로그램.");
+		/*
+		  할일(입력 : 1, 보기:2 , 끝내기 : 3) >> 1
+		  날짜(1~30) >> 1
+		  할일 >> 자바공부
+		 */
+		
+		while(true) {
+			System.out.println("할일(입력 : 1, 보기 : 2 , 끝내기 : 3 >>");
+			int sel = sc.nextInt();
+		}
 	}
 	
 }
 public class Test109 {
 
 	public static void main(String[] args) {
+		
 		// 4월 한달의 스케쥴
 				MonthSchedule april = new MonthSchedule(30); // 4월은 30일
 				april.run(); 
