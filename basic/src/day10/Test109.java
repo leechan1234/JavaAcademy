@@ -46,7 +46,7 @@ class MonthSchedule {
 		}
 	}
 	void input() {
-		System.out.println("날짜 (1~ " + dayNum);
+		System.out.println("날짜 (1~ " );
 	}
 	void run() {
 		Scanner sc = new Scanner(System.in);

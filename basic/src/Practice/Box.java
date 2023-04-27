@@ -3,16 +3,18 @@ package Practice;
 public class Box {
 
 	public static void main(String[] args) {
-		BlackBox b1 = new BlackBox();
-		b1.boxNum = 20;
-		b1.name = "까망이";
-		b1.price = 200000;
-		b1.vir = 3;
-		System.out.println(b1.boxNum);
-		System.out.println(b1.name);
-		System.out.println(b1.price);
-		System.out.println(b1.vir);
-	b1.power();
+		
+		int[] num1 = {1,2,3,4,5,6,7,8,9,10};
+		int[] num2 = new int[10];
+		//코드작성
+	for (int i = 0; i < num1.length; i++) {
+		num2[i] +=num1[i]*num1[i];
+	}
+		
+		//num2 출력
+		for (int i = 0; i < num2.length; i++) {
+			System.out.println(num2[i]);
+		}
 		
 	}
 
