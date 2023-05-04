@@ -13,8 +13,10 @@ IPTV클래스를 작성하세요.
 */
 class TvClass {
 	private int size;
-	public TvClass(int size) { this.size = size; }
-	protected int getSize() { return size; }
+	public TvClass(int size) {
+		this.size = size; }
+	protected int getSize() { 
+		return size; }
 }
 class ColorTV extends TvClass { // size getSize() 
 	 int color;
